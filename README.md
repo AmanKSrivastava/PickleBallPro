@@ -2,42 +2,33 @@
 
 Welcome to PickleballPro, a React Native app built using Expo. This app is designed to manage and generate Pickleball matches, players, courts, and more! The goal is to provide a seamless experience for pickleball enthusiasts, allowing them to organize and track their games with ease.
 
-
 Features
 
-	•	Login & Sign-up: Social login using Google, Facebook, and Apple.
-	•	Edit Profile: Update personal information such as name, bio, skill level, and more.
-	•	Match Generator: Randomly assign players to matches and courts.
-	•	Player Generator: Manage players and automatically generate teams.
-	•	Court and Player Management: Add, edit, and manage players and courts with ease.
-
+    •	Login & Sign-up: Social login using Google, Facebook, and Apple.
+    •	Edit Profile: Update personal information such as name, bio, skill level, and more.
+    •	Match Generator: Randomly assign players to matches and courts.
+    •	Player Generator: Manage players and automatically generate teams.
+    •	Court and Player Management: Add, edit, and manage players and courts with ease.
 
 Tech Stack
 
-	•	React Native: For building the mobile app.
-	•	Expo: For development and bundling.
-	•	React Navigation: For navigation within the app.
-	•	React Native Elements: For UI components.
-	•	Firebase/Auth0: For authentication (Google, Facebook, Apple login).
-	•	Axios: For handling API requests.
+    •	React Native: For building the mobile app.
+    •	Expo: For development and bundling.
+    •	React Navigation: For navigation within the app.
+    •	React Native Elements: For UI components.
+    •	Firebase/Auth0: For authentication (Google, Facebook, Apple login).
+    •	Axios: For handling API requests.
 
-📦PickleballHub
- ┣ 📂assets
- ┣ 📂src
- ┃ ┣ 📂components
- ┃ ┣ 📂screens
- ┃ ┣ 📂navigation
- ┃ ┣ 📂context
- ┃ ┣ 📂hooks
- ┃ ┣ 📂services
- ┃ ┣ 📂styles
- ┃ ┗ 📂utils
- ┣ 📜App.js
- ┣ 📜app.json
- ┣ 📜package.json
- ┣ 📜babel.config.js
- ┗ 📜metro.config.js
+Installation:
 
+1. Clone this repository:
+   git clone https://github.com/AmankSrivastava/PickleballPro.git
+2. Navigate to the project directory:
+   cd PickleballHub
+3. Install dependencies:
+   npm install
+4. Start the Expo server:
+   expo start
 
 Contributing
 
